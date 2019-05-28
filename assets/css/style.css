@@ -1,0 +1,126 @@
+/*font*/
+@font-face{
+	src: url(../webfonts/fonts/Regular.otf);
+	font-family: c-regular;
+}
+@font-face{
+	src: url(../webfonts/fonts/Light.otf);
+	font-family: c-thin;
+}
+
+body{
+	font-family: c-regular !important;
+}
+.gradient-b{
+	background-color: #56baec; 
+}
+.blue-shadow{
+	-webkit-box-shadow: 0px 14px 69px -8px rgba(34,80,130,0.89) !important;
+	-moz-box-shadow: 0px 14px 69px -8px rgba(34,80,130,0.89) !important;
+	box-shadow: 0px 14px 69px -8px rgba(34,80,130,0.89) !important;
+}
+.border-b-blue{
+	border-bottom: 3px solid #56baec;
+}
+
+/*letter spacing*/
+.ls-1{
+	letter-spacing: .4px;
+}
+.ls-2{
+	letter-spacing: .8px;
+}
+.ls-3{
+	letter-spacing: 1.6px;
+}
+
+/* font size */
+.font-12{
+	font-size: 12px !important;
+}
+.font-14{
+	font-size: 14px !important;
+}
+.font-16{
+	font-size: 16px !important;
+}
+.font-18{
+	font-size: 18px !important;
+}
+.font-20{
+	font-size: 20px !important;
+}
+.font-22{
+	font-size: 22px !important;
+}
+
+.text-blue{
+	color: #56baec !important;	
+}
+
+.p-custom-1{
+	padding: 7px 13px !important;
+}
+/* border radius */
+.border-radius-1{
+	border-radius: 0.25rem;
+}
+.border-radius-2{
+	border-radius: 0.5rem;
+}
+
+.slim-grid{
+  margin-left: -8px !important;
+  margin-right: -8px !important;
+}
+.slim-grid [class*=col-]{
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.login-wrap{
+	margin-top: calc(50vh - 226.5px) !important;
+}
+.login-form input{
+	border: 1px solid #e3edf0;
+	background-color: #f4f4f4;
+	transition: 0.5s;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.login-form input:focus{
+	background-color: #ffffff;
+	border-bottom: 1px solid #56baec;
+	border-top: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	outline: none!important;
+}
+.login-button input{
+	-webkit-box-shadow: 0px 7px 38px -8px rgba(39,136,184,1);
+	-moz-box-shadow: 0px 7px 38px -8px rgba(39,136,184,1);
+	box-shadow: 0px 7px 38px -8px rgba(39,136,184,1);
+	background-color: #56baec;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dashboard-nav .dropdown-toggle::after{
+	margin-left: 0.5rem !important;
+}
+.navbar{
+	margin-left: 58.92px;
+	width: calc(100% - 58.92px);
+}
+
+/*sidebar*/
+.sidebar{
+	width: 57.92px;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+}
+.content{
+	margin-left: 58.92px;
+	width: calc(100% - 58.92px);
+}
